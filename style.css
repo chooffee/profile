@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+
+body {
+  background-image: url('images/beer-pattern.jpg');
+  margin :auto
+}
+
+h1 {
+  font-family: 'Reenie Beanie', cursive;
+  color: #000000;
+  font-size: xxx-large;
+}
+
+img {
+  height: 200px;
+  border-radius: 70%;
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  color: #e9a98b;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  color: #58607D;
+}
+
+.btn-purple {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: #86c894;
+  padding: 16px;
+  border-radius: 100px;
+}
+
+.btn-purple:hover {
+  background-color: #000000;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  color:#86c894;
+  padding-inline-start: 0px;
+}
+li {
+  display: inline-block;
+  margin: 10px;
+}
+
+i {
+  font-size: 50px;
+  color:#86c894
+}
+
+i:hover {
+  color:#4c7c56
+}
+
+.beer-div {
+  background-image: url('images/beer-gif.gif');
+  font-family:'Pacifico', cursive;
+}
+
+.beer-div p {
+  color: rgb(255, 255, 255);
+}
+
+.graphic-div {
+  background-image: url('images/beboune.gif');
+  font-family:'Pacifico', cursive;
+}
+.graphic-div p {
+  color: rgb(255, 255, 255);
+}
+
+.sound-div iframe {
+    display:block;
+    position:relative;
+    width: 90%;
+    height: 150%;
+    margin: 0 auto;
+   padding-bottom: 40px;
+}
+.sound-div {
+  background-image: url('images/ovni.jpg');
+  font-family:'Pacifico', cursive;
+}
+
+.sound-div i {
+  color: rgb(255, 255, 255);
+}
+
+.sound-div h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 70px;
+  position:relative;
+  color:rgb(255, 255, 255);
+  font-stretch: narrower;
+}
+
+
+div {
+  background-color: white;
+  padding: 32px;
+  margin: 24px auto;
+  width: 500px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border-radius: 4px;
+}
+
+#paragraph-withmargin {
+  margin-bottom: 32px;
+}
